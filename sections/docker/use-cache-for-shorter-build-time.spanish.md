@@ -53,7 +53,7 @@ RUN npm run build
 
 ## Ejemplos
 
-### Ejemplo básico con node_modules que necesitan dependencias del Sistema Operativo.
+### Ejemplo básico con node_modules que necesitan dependencias del Sistema Operativo
 ```Dockerfile
 #Crea una imagen de Node con un alias
 FROM node:10.22.0-alpine3.11 as builder
@@ -82,7 +82,7 @@ CMD ["node", "dist/server.js"]
 ```
 
 
-Ejemplo que necesita un paso de compilación (e.g. cuando se utiliza typescript)
+Ejemplo que necesita un paso de compilación (por ejemplo cuando se utiliza typescript)
 ```Dockerfile
 #Crea una imagen de Node con un alias
 FROM node:10.22.0-alpine3.11 as builder
